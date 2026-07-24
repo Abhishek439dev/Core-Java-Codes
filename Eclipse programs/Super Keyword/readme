@@ -1,5 +1,6 @@
 The super keyword is used to access the super class or parent class properties.
 It can be used anywhere in the program. 
+The syntax goes like super.<variable_name> or super.<method_name>.
 Most commonly it is used under a function which calls parent class properties or when there is ambiguity in the names of variables.
 Ex- void display(){
       this.age;
@@ -7,4 +8,13 @@ Ex- void display(){
 }
 Here, both the variables have same name 'age' but one is present in the same class and another one in parent class. The child class variable can be accessed with 
 'this' keyword whie the parent class variable can be accessed using 'super' keyword.
-The syntax goes like super.<variable_name> or super.<method_name>.
+
+Outside a function, this super keyword is not necessary because a parent class variable or method can be accessed using object creation. 
+Ex: son s = new son();
+    s.<parent_variable_name>
+    s.<parent_method_name>
+
+But if the names of variables are same then we have to use the super keyword.
+Ex: son s = new son();
+      super.age;      //this will access the parent class age variable.
+      s.age;         // this will access the child class age variable.
