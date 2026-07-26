@@ -1,0 +1,3 @@
+Method overriding is the process of modyfying a method. It involves changing the implementation of the method.
+It requires Is-A relationship among the classes. 
+The return-type, name and parameters of the method should remain same in this process. Only the implementation is changed.
