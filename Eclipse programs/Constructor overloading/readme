@@ -1,0 +1,5 @@
+Constructor overloading is the presence of multiple constructors under a class. 
+To achieve it the constructors have to follow at least one of the following rules. 
+i) The constructors parameters should be different in numbers. 
+ii) They can be different in their data types if numbers are same.
+iii) They can be different in their sequence if the number and data types both are same.
