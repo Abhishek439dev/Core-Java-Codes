@@ -1,0 +1,4 @@
+Array is a fundamental data structure used to store a number of data under a single name.
+Arrays are homogenous means they store similar type of data.
+They are of fixed size.
+They are index based, means the elements of an array are accessed with the help of their index values starting from zero.
