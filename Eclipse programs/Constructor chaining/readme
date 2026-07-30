@@ -3,3 +3,10 @@ This occurs with the help of this() and super() calling statements.
 In the same class one constructor can call another one using this() statement while in different classes one constructor can call another using super() statement.
 These this() and super() statements must be written in the first line within the calling constructor, such that the constructor is invoked/called even before the
 execution of the constructor that called it. 
+
+In different class, constructor chaining requires Is-A relationship(inheritance) between the classes. It is also of two types.
+i) Implicit: It occurs in the case of non-parameterized constructors. A child class's non-parameterized constructor will call a non-parameterized constructor of the parent 
+class implicitly(automatically) when its invoked(upon object creation).
+
+ii) Explicitly: It occurs with parameterized constructors. A child class's parameterized constructor will invoke a parent class's parameterized constructor explicitly
+(manually) with the help of super() statement. 
