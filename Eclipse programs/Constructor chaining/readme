@@ -1,0 +1,5 @@
+Constructor chaining is the process of calling one constructor from within another constructor.
+This occurs with the help of this() and super() calling statements.
+In the same class one constructor can call another one using this() statement while in different classes one constructor can call another using super() statement.
+These this() and super() statements must be written in the first line within the calling constructor, such that the constructor is invoked/called even before the
+execution of the constructor that called it. 
