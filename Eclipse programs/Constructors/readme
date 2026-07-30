@@ -2,4 +2,5 @@ The constructor is a set of instructions which is used to initialize variables a
 These are of two types. i) default constructors ii) custom constructors.
 default const. are created automatically if there is no custom const. in the class.
 custom const. are created by the user. 
+In a class there can be only a single type of constructor either custom or default.
 The name of const. must be same as that of the class. There should be no return type. They can accept arguments as well. 
