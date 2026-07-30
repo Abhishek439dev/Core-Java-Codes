@@ -8,7 +8,7 @@ public class DifferentClass_1 {
 		System.out.println("non-parameterized constructor of class 1");
 	}
 	
-	DifferentClass_1(int age, String name){  //A non-parameterized const. requires explicit calling using the 'super()' calling statement.
+	DifferentClass_1(int age, String name){  //A parameterized const. requires explicit calling using the 'super()' calling statement.
 		System.out.println("parameterized constructor of class 1");
 		System.out.println("Age of person is "+age+" and his name is "+name);
 	}
