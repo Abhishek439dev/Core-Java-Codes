@@ -1,6 +1,6 @@
 package com;
 
-//Is-A relationship is required to achieve constructor calling.
+//Is-A relationship is required to achieve constructor calling in different classes.
 public class DifferentClass_2 extends DifferentClass_1{
 
 	DifferentClass_2(){   //This constructor from child class will call the non-parameterized const. of parent class automatically upon its object-creation.
