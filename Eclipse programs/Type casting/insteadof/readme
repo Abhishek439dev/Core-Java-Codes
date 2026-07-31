@@ -1,0 +1,2 @@
+insteadof is an operator used to determine if an object is an instance of a class or not.
+It returns a boolean value.
