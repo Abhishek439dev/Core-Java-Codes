@@ -6,7 +6,10 @@ a) Widening: When we convert a smaller data type to a larger data type, it is ca
 It occurs implicitly.
 Example: int a = 5;     //a -> 5
          dounle b = a;  //a -> 5.0
+
 b) Narrowing: It is the conversion of a larger data type to a smaller one. It occurs explicitly.
+Example: double b = 3.5;  //b -> 3.5
+         int a = (int)b;  //a -> 3
 
 Some orders of increasing memory sizes of data types are as follows.
 byte -> short -> int -> long -> float -> double
