@@ -1,0 +1,23 @@
+Type casting refers to the conversion of data from one type to another. It is of two types.
+i) primitive ii) non-primmtive
+
+Primitive type casting is also of two types.
+a) Widening: When we convert a smaller data type to a larger data type, it is called as widening. The larger and smaller refers to the memory size they occupy.
+It occurs implicitly.
+b) Narrowing: It is the conversion of a larger data type to a smaller one. It occurs explicitly.
+
+Some orders of increasing memory sizes of data types are as follows.
+byte -> short -> int -> long -> float -> double
+char -> int -> long -> float -> double
+
+Non-primitive type casting is also of two types. It is also called as derived casting or class type casting.
+a) Upcasting: When we create an object of a sub-class and it is stored with a reference of super class. It is called as Upcasting. It occurs implicitly.
+Example: Father f = new Son();
+Using the upcasted reference we can only access the super class properties not the sub class properties.
+
+b) Downcasting: It involves the conversion of the reference of upcasted object from the super class back to the sub class reference. It occurs explicitly.
+Example: Son s = (Son)f;
+After downcasting using the reference (e.g. s), we can access both sub-class and super class properties.
+
+Upcasting and downcasting is used for generalization means to access properties of unrelated classes using a single super class that has a Is-A relationship with 
+all the sub classes.
