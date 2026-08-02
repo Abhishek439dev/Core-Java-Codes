@@ -1,0 +1,4 @@
+It is also known as Class-type or Derived type caasting.
+It is also of two types.
+a) Upcasting: Assigning a subclass object to a reference of supe class. It's done implicitly.
+b) Downcasting: Converting the superclass reference back to the subclass reference. It's done explicitly.
