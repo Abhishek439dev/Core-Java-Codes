@@ -1,0 +1,2 @@
+ClassCastException takes place when we downcast an object which was not upcasted.
+If we have upcasted an object we have to downcast the same class object. If we have downcasted an object which was not upcasted before, we will get this exception.
