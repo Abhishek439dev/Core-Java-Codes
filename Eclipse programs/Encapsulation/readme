@@ -1,0 +1,16 @@
+Encapsulation is one of the concepts of OOPs. It states that all the data members(variables) and member functions (methods) should be grouped, bind or wrapped into
+a single emtity called as Class. The best example of Encapsulation is Java Bean Class. 
+A Java Bean Class is the one which has following properties:
+i) It should be a public non-abstract(concrete) class.
+ii) The variables of the class should be declared as private.
+iii) There should be separate setter and getter methods for each data member(variables).
+
+Java Bean Class or Encapsulation is helpful.
+i) To validate data before assigning it to the variables (using conditional statements in setter functions).
+ii) It improves the code readability.
+iii) It protects the data from illogical assignment of data.
+iv) It makes the code more flexible and secure, we can make the data either write only(by defining only the setter function), read only(by defining only the getter
+functiom) and both by defining both functions.
+
+                                                                                       
+The shortcut to create getter and setter methods is Alt + Shift + S.                                                                                                                    
