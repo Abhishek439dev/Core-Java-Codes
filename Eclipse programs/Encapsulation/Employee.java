@@ -5,12 +5,13 @@ public class Employee {       //Class should be public non-abstract class.
 	private int age;          //All the variables must have private variables in a Java Bean Class.
 	private String EmpName;
 	
-	public void setAge(int age) {               //All private variables should have their public setter and getter methods.
-		if(age>0) {                                       //We can add conditions to validate the passed data before initializing it to the variables.
+	     //All private variables should have their public setter and getter methods.
+	public void setAge(int age) {                        //Public setter method for age.
+		if(age>0) {                                      //We can add conditions to validate the passed data before initializing it to the variables.
 			System.out.println("Age initialized to:");
 			this.age = age;
 		}
-		else {
+		else {                                           //Else block if condition is false.
 			System.out.println("Enter a valid age");
 		}	
 	}
