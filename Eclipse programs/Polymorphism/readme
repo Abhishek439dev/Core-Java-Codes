@@ -5,5 +5,6 @@ which method to invoke upon calling it. This is decided during compilation. This
 with their calling statements.
 
 b) Runtime polymorphism: It requires Is-A relationship, Method overriding and upcasting. First the classes are required to have Is-A relationship, then the method of
-parent class is inherited into the sub class where its implementatuion is changed(method overriding). 
+parent class is inherited into the sub class where its implementatuion is changed(method overriding). Then upcasting is done. The super class reference of subclass
+is used to call the method. The behaviour of method depends upon the sub class object.
 This is also called as Late Binding or Dynamic Binding. The JVM decides the calling statements should invoke which method at Runtime.
