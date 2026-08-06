@@ -1,0 +1,17 @@
+Abstraction is the hiding of the implementation of different methods in a program. It refers to displaying only the functionalities of a program while hiding how
+the program achieves those functionalities. 
+It requires Interface where differnet abstract methods are declared which reflects the functionalities of a program. 
+Then a class inherits a Is-A relationship with this interface using implements keyword.
+The next step is to override all the methods of the interface to provide an implementation or logic to them so that they can perform their functions. This implementation
+of the methods is what we have to hide in Abstraction.
+The last step is Upcasting. In this process the overrided methods are called via super class reference of subclass types.
+Upon ctrl+clicking the methods the cursor moves to superclass methods(abstract methods in interface), where we can see only the declaration of the methods. We cannot see
+the implementation of the methods. This is Abstraction.
+
+Upon executing the program, the JVM checks that the method belongs to which class.
+Parent p = new Son();
+p.sonStudies();
+
+The p reference stores an object of Son class so when the method is called using it, the second statement becomes, new Son().sonStudies. This directs the JVM to the 
+sub class Son and invokes the method. This sub class stores the implementation of the methods as well. This implementation was hidden while checking the methods with
+ctrl+click. It is checked at runtime by JVM, this is called as Run time polymorphism/late binding or dynamic binding.
