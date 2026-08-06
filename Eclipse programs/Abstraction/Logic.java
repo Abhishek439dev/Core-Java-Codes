@@ -22,7 +22,7 @@ public class Logic implements Calculator {
 	}
 	@override
 	public void exit() {
-		System.exit(0);
+		System.exit(0);   //This command is used to terminate the program. 0 -> successful termination, 1 -> runtime exception, 2-> syntax error, -1 -> external error
 	}
 
 }
