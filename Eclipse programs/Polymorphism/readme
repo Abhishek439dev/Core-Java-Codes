@@ -4,7 +4,9 @@ a) Compile time polymorphism: It requires Method overloading. When we overload a
 which method to invoke upon calling it. This is decided during compilation. This polymorphism is also called as Early Binding or Static Binding. The methods are bind
 with their calling statements.
 
-b) Runtime polymorphism: It requires Is-A relationship, Method overriding and upcasting. First the classes are required to have Is-A relationship, then the method of
-parent class is inherited into the sub class where its implementatuion is changed(method overriding). Then upcasting is done. The super class reference of subclass
-is used to call the method. The behaviour of method depends upon the sub class object.
+b) Runtime polymorphism: In this type of polymorphism the JVM decides which method to call at the runtime. It requires Is-A relationship, Method overriding and upcasting. 
+First the classes are required to have Is-A relationship, then the method of parent class is inherited into the sub class where its implementatuion is changed(method 
+overriding). Then upcasting is done. 
+The super class reference of subclass is used to call the method. If we do ctrl+click upon the method it will direct the cursor to the super class method (because we are
+calling it using the super class reference) but when we run the program, the output shows the implementation of subclass. The output of method depends upon the sub class object.
 This is also called as Late Binding or Dynamic Binding. The JVM decides the calling statements should invoke which method at Runtime.
