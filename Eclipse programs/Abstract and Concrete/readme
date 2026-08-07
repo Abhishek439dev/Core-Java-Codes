@@ -1,0 +1,5 @@
+Abstract is a keyword which is used to define abstract classes and methods. The classes and methods with an abstract keyword are called concrete ones.
+Abstract methods are those which are declared but don't have any implementation or logic while concrete methods have declaration and implementation or logic.
+An abstract class can store both concrete and abstract methods, while a concrete class can store only concrete methods.
+The object creation of an abstract class is not allowed because it contains incomplete methods which may result in runtime errors. 
+These methods need to be inherit and override by providing an implementation by a concrete class in order to use them.
