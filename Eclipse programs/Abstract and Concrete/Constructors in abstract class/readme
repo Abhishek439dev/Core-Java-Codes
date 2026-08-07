@@ -1,0 +1,4 @@
+Object creation of an abstract class is not allowed while the constructors require it to get invoked/called.
+The abstract class can have constructors but they cannot be invoked directly by object creation. 
+Constructors in abstract class can be invoked with the help of super calling statements under another constructor of a subclass of this abstract class.
+It can invoke the const. implicitly if it is a non-parameterized const. and if it is a parameterized const. they need to be invoked explicitly.
