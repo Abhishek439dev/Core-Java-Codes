@@ -1,0 +1,5 @@
+Interface is a java type definition which is declared using the interface keyword.
+It can have variables which are by default public static and final.
+The methods in an interface are by default public and abstract.
+Interface is used to create an idea of the program, like what should be the functionalities in the program. It doesn't show the logic and how we are goig to achieve
+those functionalities even though it provides a blueprint of the program.
