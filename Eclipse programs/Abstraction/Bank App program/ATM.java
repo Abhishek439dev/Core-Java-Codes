@@ -25,7 +25,7 @@ public class ATM implements Bank{
 			System.out.println("Your current balance is not enough.");
 		}
 		//Another check to ensure minimum balance in the account. it allows the withdrawl but let the user know about maintaining min. balance.
-		else if(balance<8000) {
+		else if((balance-wAmt)<8000) {
 			System.out.println("Your current account balance is low. Please ensure maintaining minimum balance to avoid charges.");
 			System.out.println("Withdrawing amount Rs."+wAmt);
 			balance -= wAmt;                  //Deducting the withdrawl amount from balance with a warning.
