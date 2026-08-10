@@ -1,0 +1,11 @@
+Java Libraries are the collection of pre-defined classes and interfaces which consists of different variables and methods. 
+These methods have a definite function which is used in the java programs. 
+Some popular java libraries are java.lang, java.io, 
+java.lang is a special library because this library is automatically imported in all the classes or interfaces or any program we create in java.
+In the java.lang there is a special class called the Object class. The feature of this class is this class is known as the supermost class of java. This is the
+super class of all the java classes. In other words, all the classes/interfaces created in java will automatically inherit this class and all its methods.
+
+Some important methods of this class are, 
+toString()
+hachCode()
+equals()
