@@ -1,0 +1,5 @@
+Object class is the supermost class in Java because this class is the root class in java class hierarchy and it is inherited by all the classes.
+Object class has many methods out of which there are three important methods which are,
+a) toString()
+b) hashCode()
+c) equals()
