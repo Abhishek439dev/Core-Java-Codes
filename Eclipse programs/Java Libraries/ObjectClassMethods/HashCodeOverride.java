@@ -1,7 +1,8 @@
 package object;
-
+//In this program we have overridden the hashCode method to return a differnt integer value instead of the hashcode.
 public class HashCodeOverride {
 
+	@Override
 	public int hashCode() {
 		return 1234;
 	}
@@ -14,5 +15,6 @@ public class HashCodeOverride {
 }
 
 /*
+Output:
 1234
 */
