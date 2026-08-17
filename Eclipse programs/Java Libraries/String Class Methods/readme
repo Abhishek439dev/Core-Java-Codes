@@ -1,0 +1,10 @@
+String is a class in Java and it can also act as a data type i.e. non-primitive datatype.
+String is generally used to store a set of characters. 
+This can be done in two ways.
+a) literal b) new keyword.
+
+a) Using String literal: It involves use of String keyword.
+String name = "Abhishek";
+
+b) Using new keyword: It involves object creation of the String class.
+String name = new String("Abhishek");
