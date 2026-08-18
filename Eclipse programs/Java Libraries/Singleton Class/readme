@@ -1,0 +1,6 @@
+Singleton class or Singleton design pattern implies that a class should have only one object. This design pattern is useful to impose security in applications.
+To achieve singleton design pattern we need,
+a) A private constructor : It prevents object creation outside the class.
+b) A public helper method : This is used to create the only single object. An if-else condition is included so that object creation is done only when the variable is null.
+c) Declaring a private static non-primitive variable : It is the variable which will store the object. It is private for security, static so that no object-creation is 
+  required and it can be accessed via class name. It is non-primitive because it uses the class name.
