@@ -19,7 +19,7 @@ public class Elections {
 }
 
 /*
-Output: 
+Output :
 Prime Minister got elected
 Your PM name is Rahul Gandhi
 ----------------
