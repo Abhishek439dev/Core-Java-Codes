@@ -33,7 +33,12 @@ public class StringMethods {
 		System.out.println(s.substring(5));              //are Developer
 		System.out.println(s.substring(4, 8));           //ware 
 		
+		String x = "Java";
+		char[] ch = x.toCharArray(); //converts a String to an array of characters.
 		
+		for(int i = 0; i<ch.length; i++) {
+			System.out.print(ch[i]+" ");  //J a v a
+		}
 		
 		
 		
