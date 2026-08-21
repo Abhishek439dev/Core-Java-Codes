@@ -1,0 +1,4 @@
+Try and catch are the fundamental exception handling blocks of code.
+The critical piece of code which can give an exception is written within the try block and just after the try block the catch block should be there which
+contains the content to be displayed once the exception occurs.
+There should be no code between the try and catch block. 
