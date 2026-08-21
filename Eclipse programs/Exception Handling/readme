@@ -1,0 +1,7 @@
+Exceptions are the interruptions or problems in a program that stops the execution of a program from the point of occurence. 
+These interruptions can be handled so that the program execution does not stops abruptly. 
+try and catch statements are used to handle these exceptions.
+
+Errors are the interruptions which could not be handled. There can be compile time errors which occurs due to mistakes in syntax of code or there can be
+runtime errors which generally occurs because of a missing main method.
+Erros also abort the program execution but Erros can't be handled. They need to be debugged. 
