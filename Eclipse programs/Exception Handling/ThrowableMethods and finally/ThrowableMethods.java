@@ -4,7 +4,7 @@ public class ThrowableMethods {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Start");  //Marks the begining of the program.
+		System.out.println("Start");  //Marks the beginning of the program.
 		
 		try {
 			System.out.println(10/0);  //Error prone code written in try block.
@@ -17,7 +17,6 @@ public class ThrowableMethods {
 		System.out.println("End");  //Marks the end of the program.
 	}
 }
-
 
 /*
 Output: 
