@@ -1,0 +1,6 @@
+There are two methods present in the Throwable exception class. These methods are inherited by all the execeptions classes inheriting the Throwable class.
+These two methods are,
+> PrintStackQueue() : This method prints details about the exception. It displays the exception name, short message and the line number where the exception occured.
+> getMessage() : This method prints a small message descriing the reason for the exception.
+
+finally: The finally block contains the code which will execute always no matter execption occured or not, it is handled by a suitable exception class or not. 
