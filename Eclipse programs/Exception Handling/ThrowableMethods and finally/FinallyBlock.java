@@ -17,7 +17,7 @@ public class FinallyBlock {
 			System.out.println(num1/num2);      //Storing the critical code in try block.
 		}
 		catch(ArithmeticException e) {
-			System.out.println("There is some problem ->"+e.getMessage());   //Execption handled and the small message for the exception occurence is printed.
+			System.out.println("There is some problem ->"+e.getMessage());   //Exception handled and the small message for the exception occurrence is printed.
 		}
 
 		//This block of code will execute always no matter exception occurs or not and if it is handled properly or not.
@@ -25,7 +25,7 @@ public class FinallyBlock {
 			System.out.println("Thank you for using our service.");  
 		}
 		
-		System.out.println("End"); //This line won't execute if an exception occured but is not handled with a suitable exception class.
+		System.out.println("End"); //This line won't execute if an exception occurred but is not handled with a suitable exception class.
 		scan.close();
 	}
 }
