@@ -1,0 +1,8 @@
+There are two types of exceptions.
+1) Checked exceptions: These are the exceptions which inherit the exception class directly. These exceptions need to be handled immediately as the compiler begins
+to give redlines under the critical code, so we came to know that these lines of code are going to give exception even before the execution of the program.
+This code need to be put under try and catch block before proceeding. 
+
+2) Unchecked exceptions: These are the exceptions which inherit the runtime class. These exceptions need to be handled but not immediately as the compiler doesn't 
+give any redline under the critical code. We came to know about the exception only after the execution of the code. Then we can put this critical code in try-catch
+block to handle it.
