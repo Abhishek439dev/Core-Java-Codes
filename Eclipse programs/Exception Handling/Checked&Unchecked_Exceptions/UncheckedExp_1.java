@@ -9,7 +9,7 @@ public class UncheckedExp_1 {
 		
 		System.out.println(arr[90]);  //Accessing an element on index 90. This line will result in ArrayIndexOutOfBoundsException but it will not give us an immediate warning.
 		//We have to handle it using try-catch blocks obviously to ensure smooth execution of program but compiler is not giving us any redline indication. 
-		//The code will compile succefully.
+		//The code will compile successfully.
 	}
 }
 
