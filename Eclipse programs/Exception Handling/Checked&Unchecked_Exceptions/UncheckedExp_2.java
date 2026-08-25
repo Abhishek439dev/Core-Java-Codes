@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class UncheckedExp_2 {
 
 	public static void main(String[] args) {
-		
+		//Accepting dynamic inputs
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Enter first number");
@@ -19,10 +19,10 @@ public class UncheckedExp_2 {
 			System.out.println(num1/num2); //this line of code can give ArithmeticException but it will get unnoticed by the compiler even if we don't handle it.
 		}
 		catch(ArithmeticException e){
-			e.printStackTrace();
-		}
+			e.printStackTrace();          //Prints the details of the exception.
+		} 
 		
-		System.out.println("Thanks for using.");
+		System.out.println("Thanks for using.");  //This line of code would not have executed if an exception occured but it is not handled.
 		scan.close();
 		
 	}
