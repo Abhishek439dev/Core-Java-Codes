@@ -5,28 +5,28 @@ import java.util.Scanner;
 public class Login {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
+		Scanner scan = new Scanner(System.in);  //Accepting dynamic user inputs.
+		 
+		System.out.println("Enter login ID");   //Prompt
+		String id = scan.next();                //Storing user input.
 		
-		System.out.println("Enter login ID");
-		String id = scan.next();
+		System.out.println("Enter Password");   //Prompt
+		int password = scan.nextInt();          //Storing user input.
 		
-		System.out.println("Enter Password");
-		int password = scan.nextInt();
+		scan.close();                           //Stopped taking user input.
 		
-		scan.close();
-		
-		if(id.equals("admin")) {
+		if(id.equals("admin")) {                //equals method in String class is overriden to compare the actual content.
 			
-			if(password == 123) {
-				System.out.println("Login Successful");
+			if(password == 123) {               //nested if condition to check password after the user id.
+				System.out.println("Login Successful");     //message to print if both userid and password are correct.
 			}
-			else {
+			else {                              //else the exception occurs.
 				try {
-					InvalidPasswordException obj = new InvalidPasswordException();
-					throw obj;
+					InvalidPasswordException obj = new InvalidPasswordException();  //creating the custom exception class object.
+					throw obj;                                                      //throwing the custom exception class object.
 				}
 				catch(InvalidPasswordException e) {
-					System.out.println("Incorrect Password.");
+					System.out.println("Incorrect Password.");                     //message to print upon catching exception.
 					
 				}
 				
