@@ -1,0 +1,8 @@
+Custom exceptions are the exceptions which are defined by user as per the requirements for a project. These are the exceptions for the scenarios
+which are not pre-defined.
+To create a custom exception, we have to follow certain rules.
+1) Create a class, the name of the class should be same of the exception name.
+2) This class can extend the Exception super class to create a checked exception or it can extend RuntimeException class to create an unchecked
+exception.
+3) To invoke this exception we have to create an object of this custom exception class and use the 'throw' keyword to throw this object. 
+4) This will invoke the custom exception. We can pair this with condtional statements so that the exception invokes upon certian condition.
