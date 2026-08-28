@@ -20,7 +20,7 @@ public class Login {
 			if(password == 123) {               //nested if condition to check password after the user id.
 				System.out.println("Login Successful");     //message to print if both userid and password are correct.
 			}
-			else {                              //else the exception occurs.
+			else {                              //else the exception invokes.
 				try {
 					InvalidPasswordException obj = new InvalidPasswordException();  //creating the custom exception class object.
 					throw obj;                                                      //throwing the custom exception class object.
