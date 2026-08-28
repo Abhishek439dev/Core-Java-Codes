@@ -3,4 +3,8 @@ These two methods are,
 > PrintStackQueue() : This method prints details about the exception. It displays the exception name, short message and the line number where the exception occured.
 > getMessage() : This method prints a small message descriing the reason for the exception.
 
-finally: The finally block contains the code which will execute always no matter execption occured or not, it is handled by a suitable exception class or not. 
+finally block: The finally block contains the code which will execute always no matter execption occured or not, it is handled by a suitable exception class or not. 
+syntax:
+finally {
+//code which needs to execute always
+}
