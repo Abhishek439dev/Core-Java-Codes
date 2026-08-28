@@ -4,7 +4,7 @@ public class InsufficientBalanceException extends Exception{
 
 	private static final long serialVersionUID = 1L;     //serial value of the custom exception class.
 	
-	private String message;   //A private variable to display the short message of exception.
+	private String message;   // A private variable to display the short message of exception.
 
 	//Public constructor to accept the 'exception short message' via object creation and initializing the private variable.
 	public InsufficientBalanceException(String message) {
