@@ -31,7 +31,7 @@ public class TryCatch3 {
 			System.out.println("[INVALID] SuperClass Exception Handler");
 		}
 			
-		System.out.println("<-----Thanks for using---->");
+		System.out.println("<-----Thanks for using---->");  //this line of code will executes only when the program executes successfully and proper handling of exception. 
 		scan.close();
 	}
 }
