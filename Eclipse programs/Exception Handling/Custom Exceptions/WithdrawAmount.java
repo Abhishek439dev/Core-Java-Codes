@@ -14,7 +14,7 @@ public class WithdrawAmount {
 
 		//Conditoinal statements to define when to invoke the exception.
 		if(amt <= balance) {
-			System.out.println(amt+" withdrawn successfully");
+			System.out.println(amt+" withdrawn successfully");  //successful message.
 		}
 		else {      //throw exception when withdrawing amount is more than the available balance and we have to handle it immediately(checked exception).
 			try {
