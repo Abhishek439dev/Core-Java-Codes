@@ -1,0 +1,2 @@
+Collection is a pre-defined interface in the java.util package introduced from JDK 1.2. Collection frameworks are used to store a group of 
+objects. Unlike arrays, collection can store heterogenous objects, they are dynamic in size and has a number of methods to manipulate the data.
