@@ -1,5 +1,6 @@
 package list;
 //forEach loop or enhanced for loop is a more efficient way to traverse through a group of objects like array or collections.
+//Importing classes to use the respective collections.
 import java.util.ArrayList;
 import java.util.LinkedList;
 
