@@ -6,7 +6,7 @@ public class UserDefinedObjects {
 	String name;
 	double salary;
 
-	//Constructor to initialize these variables.
+	//Constructor to initialize the variables with objects creation.
 	public UserDefinedObjects(int id, String name, double salary) {
 		this.id = id;
 		this.name = name;
