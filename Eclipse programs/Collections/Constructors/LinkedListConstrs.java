@@ -5,7 +5,7 @@ import java.util.LinkedList;
 public class LinkedListConstrs {
 
 	public static void main(String[] args) {
-		
+		//i) LinkedList() - Creates a default LinkedList.
 		LinkedList<Object> ll = new LinkedList<Object>();
 		
 		ll.add("Java");
@@ -15,7 +15,8 @@ public class LinkedListConstrs {
 		ll.add('M');
 		
 		System.out.println(ll);
-		
+
+		//ii) LinkedList(Collection c) - It is used to create a LinkedLinked which gets its values from another collection.
 		System.out.println("-----------------------");
 		
 		LinkedList<Object> ll2 = new LinkedList<Object>(ll);
