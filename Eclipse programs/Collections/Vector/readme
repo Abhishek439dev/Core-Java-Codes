@@ -1,0 +1,11 @@
+Vector is also called as legacy collection because it is replaced by more efficient collection which is ArrayList.
+Vector works similar to ArrayList. Its underlined data structure is Resizable/Growable Array.
+The differnece between Vector and ArrayList is that The initial capacity of the Vector is 10 which is similar in ArrayList as well but,
+the incremental capacity once the vector is full equals to 2x of the current capacity means double while in ArrayList it is determined by
+(current capacity * 3/2) + 1
+
+The second important difference between these two is the Vector is Thread safe (Synchronized) which means only a single thread can use it to
+access the data while the ArrayList is Not Thread safe(Not-Synchronized) which means a number of threads can use it to access the data within it,
+which makes ArrayList more efficient because more operaetions can be performed and data can be accessed quickly.
+
+Another difference is that the Vector has 4 contructors while ArrayList has 3 constructors.
