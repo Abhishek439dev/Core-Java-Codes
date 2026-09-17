@@ -1,0 +1,12 @@
+List is a pre-defined interface in java.util package introduced from JDK 1.2. There are a number of classes that implements the list interface.
+i) ArrayList : The underlined data structure of ArrayList is Resizable/Growable array. 
+ii) LinkedList : The underlined data structure of LinkedList is Doubly linked list.
+iii) Vector : The underlined data structure of Vector is Resizable/Growable array. 
+iv) Stack : The underlined data structure of Stack is Resizable/Growable array. 
+
+Specifications of List collections:
+> It is index based. 
+> It is of dynamic size. 
+> It maintains the insertion order.
+> Duplicate and null values are allowed.
+
