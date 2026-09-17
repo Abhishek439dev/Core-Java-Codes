@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class ArrayListConstrs {
 
 	public static void main(String[] args) {
-		
+		//i) ArrayList() - this one is used to create a default sized ArrayList which is of initial capacity 10. 
 		ArrayList<Object> al = new ArrayList<Object>();
 		
 		al.add(10);
@@ -19,7 +19,7 @@ public class ArrayListConstrs {
 		
 		System.out.println("----------------");
 		
-		
+		//ii) ArayList(int initialCapacity) - This one is used to create an ArrayList with a custom initial capacity.
 		ArrayList<Object> al2 = new ArrayList<Object>(20);
 		
 		al2.add("Java");
@@ -39,7 +39,8 @@ public class ArrayListConstrs {
 		
 		System.out.println("----------------");
 		
-		
+		//iii) ArrayList(Collection c) - this one is used to create an ArrayList by adding all the values of another collection which can be 
+		//ArrayList or any other collection.
 		ArrayList<Object> al3 = new ArrayList<Object>(al2);
 		
 		System.out.println(al3);
