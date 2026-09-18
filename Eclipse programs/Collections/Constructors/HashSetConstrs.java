@@ -33,7 +33,7 @@ public class HashSetConstrs {
 		
 		System.out.println(hs2);
 
-		//iii) HashSet(int initialCapacity, double load factor) -> This is used to create a HashSet with custom capacity and custom load factor.
+		//iii) HashSet(int initialCapacity, float load factor) -> This is used to create a HashSet with custom capacity and custom load factor.
 		HashSet<Object> hs3 = new HashSet<Object>(10, 0.75f);
 		hs3.add("Java");
 		hs3.add(10);
