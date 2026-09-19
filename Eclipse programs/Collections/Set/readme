@@ -1,8 +1,9 @@
 Set is a pre-defined interface in java.util package introduced from JDK 1.2.
 > It stores objects in the form of Key-Value pairs in a Hashtable. 
 > It is not Index based.
-> Duplicate values are not allowed but null values are allowed. HashSet and LinkedHashSet allows a single null value(as adding another null value will create a duplicate)
-while TreeSet don't allow any null values because it needs to compare them for sorting.
+> Duplicate values are not allowed but null value may be allowed. 
+> HashSet and LinkedHashSet allows a single null value(as adding another null value will create a duplicate) while TreeSet doesn't allow any null values because 
+it needs to compare them for sorting.
 
 It has following implementation classes
 
