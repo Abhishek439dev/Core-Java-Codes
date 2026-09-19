@@ -1,0 +1,22 @@
+Set is a pre-defined interface in java.util package introduced from JDK 1.2.
+> It stores objects in the form of Key-Value pairs in a Hashtable. 
+> It is not Index based.
+> Duplicate values are not allowed but null values are allowed. 
+
+It has following implementation classes
+
+i) HashSet -> Pre-defined class in java.util introduced from JDK 1.2, doesn't maintain the insertion order. Initial capacity - 16 and Load factor - 0.75 or 75%.
+Underlined data structure is Hashtable, stores Objects(Values) along with their HashCodes(Keys).
+
+ii) LinkedHashSet -> Pre-defined class in java.util introduced from JDK 1.4. It maintains the insertion order. No initial capacity and incremental capacity. 
+Underlined data structure is Hashtable and LinkedList.
+
+iii) TreeSet -> Pre-defined class in java.util introduced from JDK 1.2. It maintain the sorted order(increasing order). Underlined data structure is Binary tree.
+It calls compareTo() method to compare and sort the values.
+
+compareTo() method :-
+returns +1 if new object > previous object -> Object moves to the right hand side of the previous object.
+returns -1 if new object < previous object -> Object moves to the left hand side of the previous object.
+returns 0 if new object = previous object  -> Object is not added in the binary tree. 
+
+Sorting order = left node -> parent node -> right node
