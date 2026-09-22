@@ -9,7 +9,7 @@ public class TreeSetDemo {
 		//Creating a TreeSet.
 		TreeSet<Integer> t = new TreeSet<Integer>();
 
-		//Addind integer values to the TreeSet.
+		//Adding integer values to the TreeSet.
 		t.add(29);
 		t.add(30);
 		t.add(10);
