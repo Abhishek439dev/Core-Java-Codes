@@ -1,0 +1,10 @@
+map is a pre-defined interface introduced from JDK 1.2, it does not inherit the collections interface athough it is a collection framework.
+the methods of collections cannot be used here. It has its own methods like put(), remove(), containsKey(), containsValue(), get(), isEmpty() and clear().
+
+Map stores data in the form of Key and Value pairs. 
+
+The classes that implements map interface are,
+i) HashMap
+ii) LinkedHashMap
+iii) TreeMap
+iv) Hashtable
