@@ -4,7 +4,8 @@ the methods of collections cannot be used here. It has its own methods like put(
 Map stores data in the form of Key and Value pairs. 
 
 The classes that implements map interface are,
-i) HashMap
-ii) LinkedHashMap
-iii) TreeMap
+i) HashMap = Does not allow duplicate keys, duplicate values are allowed. There can be a single null key and multiple null values. Entery with same key and different
+value will override the previous value.
+ii) LinkedHashMap =  Does not allow duplicate keys, duplicate values are allowed. There can be a single null key and multiple null values.
+iii) TreeMap = Does not allow duplicate keys(enteries with , duplicate values are allowed. 
 iv) Hashtable
