@@ -11,4 +11,4 @@ ii) LinkedHashMap =  Does not allow duplicate keys, duplicate values are allowed
 value will override the previous value.
 iii) TreeMap = Does not allow duplicate keys(as they can't be compared and hence they are deleted), duplicate values are allowed. null keys are not allowed but null
 values are allowed.
-iv) Hashtable = It neither allows duplicate keys nor duplicate values. A single null key is allowed as well as a single null value is allowed.
+iv) Hashtable =  Does not allow duplicate keys, duplicate values are allowed. It neither allows null keys nor null values.
