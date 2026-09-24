@@ -1,0 +1,5 @@
+When we use TreeMap we compare premitive objects like integers or String.
+But if we want to compare the user-defined objects we need to use Comparable and Comparator interfaces.
+Both these interfaces allow us to compare and sort the user-defined objects. 
+The comparable is used for default sorting of objects (increasing order). 
+The comparator is used for custom sorting of obhects. 
