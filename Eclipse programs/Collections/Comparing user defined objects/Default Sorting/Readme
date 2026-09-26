@@ -1,0 +1,3 @@
+Default sorting is the default order in which the objects or items are arranged. This is normally the ascending order. 
+It can be achieved with the help of Comparable interface. 
+The class needs to implement the Comparable interface and Override the compareTo method with the logic for comparison of objects. 
