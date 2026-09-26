@@ -1,0 +1,11 @@
+Custom Sorting is used to sort the objects or items in custom manner like we can sort the objects on the basis of their names, 
+their Integer value, date of modification, popularity, rating as we can do in e-commerce applications to sort the objects as per our 
+convenience. 
+For custom Sorting, the class needs to implement the Comparator interface. 
+We define sorting logic in different classes like,
+• one class for sorting by Names.
+• second class for sorting by Amount.
+• third class for sorting by any other parameter.
+
+then we need to create an object of one of these classes and pass its reference in the TreeSet constructor. 
+Now the sorting will be done on the basis of the custom class whose object is passed to the TreeSet. 
