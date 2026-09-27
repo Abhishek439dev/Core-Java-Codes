@@ -1,17 +1,21 @@
 package comparing_objects;
 
-import java.util.Scanner;
-import java.util.TreeSet;
+import java.util.Scanner; //importing Scanner to accept user inputs.
+import java.util.TreeSet; //importing TreeSet class to sort the objets.
 
 public class StudentsCustom2 {
 
 	public static void main(String[] args) {
-		
+		//Accepting user inputs. 
 		Scanner scan = new Scanner(System.in);
+		//Prompt asking user to input. 
 		System.out.println("How do you want to sort the Students?\n1)By Roll no. 2)By Name 3)By Marks");
+		//storing user input.
 		int choice = scan.nextInt();
+		//Closed Scanner method.
 		scan.close();
-		
+
+		//Created objects of the class to invoke the constructor and initialise the variables.
 		StudentsCustom s1 = new StudentsCustom(1, "Sasha", 45.56);
 		StudentsCustom s2 = new StudentsCustom(3, "Jean", 50.34);
 		StudentsCustom s3 = new StudentsCustom(2, "Flock", 44.35);
@@ -28,7 +32,7 @@ public class StudentsCustom2 {
 			ts.add(s4); 
 			ts.add(s5); 
 			ts.add(s1);
-			
+
 			for(StudentsCustom sc : ts) {
 			System.out.println(sc);
 		    }
