@@ -16,13 +16,13 @@ public class StudentsDefaultSorting {
 		//Creating a TreeSet to store, compare and sort the Student objects.
 		//When we store objects in a TreeSet it looks for compareTo method in that class. 
 		//It looks for compareTo method in the specific wrapper class(Integer, Double, String, Character) of that 
-		//particular datatype. 
+		//particular data type. 
 		//But for user-defined objects the TreeSet will look for compareTo method in that class. hence we 
 		//have to override the compareTo method in the class otherwise we will get ClassCastException in absence of 
 		//compareTo method logic. 
 		TreeSet<Student> ts = new TreeSet<Student>();
 
-		//adding the obbects to the TreeSet.
+		//adding the objects to the TreeSet.
 		ts.add(s1);
 		ts.add(s2);
 		ts.add(s3);
@@ -30,7 +30,7 @@ public class StudentsDefaultSorting {
 		ts.add(s5);
 		ts.add(s6);
 
-		//Duplicate objets will not be added.
+		//Duplicate objects will not be added.
 		ts.add(s1);
 		ts.add(s2);
 
