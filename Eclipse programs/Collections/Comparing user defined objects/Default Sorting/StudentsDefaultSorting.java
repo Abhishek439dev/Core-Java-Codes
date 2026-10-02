@@ -36,7 +36,7 @@ public class StudentsDefaultSorting {
 
 		//for each loop to traverse through the TreeSet.
 		for(Student s : ts) {
-			System.out.println(s); //this will call the toString method which is oberriden to show actual content.
+			System.out.println(s); //this will call the toString method which is overridden to show actual content.
 		}
 		
 	}
