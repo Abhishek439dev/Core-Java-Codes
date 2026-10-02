@@ -30,7 +30,7 @@ public class StudentsDefaultSorting {
 		ts.add(s5);
 		ts.add(s6);
 
-		//Duplicate obbets will not be added.
+		//Duplicate objets will not be added.
 		ts.add(s1);
 		ts.add(s2);
 
